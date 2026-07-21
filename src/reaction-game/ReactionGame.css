@@ -1,0 +1,76 @@
+.reaction-game {
+  max-width: 480px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+}
+
+.reaction-game h1 {
+  margin-bottom: 1.5rem;
+}
+
+.reaction-pad {
+  width: 100%;
+  height: 260px;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.reaction-pad.idle {
+  background-color: #4b5563;
+}
+
+.reaction-pad.waiting {
+  background-color: #dc2626;
+}
+
+.reaction-pad.ready {
+  background-color: #16a34a;
+}
+
+.reaction-pad.too-soon {
+  background-color: #ea580c;
+}
+
+.reaction-pad.result {
+  background-color: #2563eb;
+}
+
+.scores {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.scores-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scores h2 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.clear-btn {
+  background: none;
+  border: 1px solid #999;
+  border-radius: 6px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.scores .empty {
+  color: #888;
+}
+
+.scores ol {
+  padding-left: 1.4rem;
+}
