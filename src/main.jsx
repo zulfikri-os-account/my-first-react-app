@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import ReactionGame from './reaction-game/ReactionGame.jsx'
+import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ReactionGame />
+    <App />
   </StrictMode>,
 )
