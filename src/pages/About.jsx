@@ -1,4 +1,4 @@
-import ReactionGame from './reaction-game/ReactionGame.jsx'
+import ReactionGame from '../reaction-game/ReactionGame.jsx'
 
 export default function About() {
   return (
