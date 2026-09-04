@@ -1,16 +1,24 @@
-# React + Vite
+# Reaction Time Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React + Vite app: a reaction-time game. Click the pad, wait for it to turn green, then click as fast as you can. Your best 5 times are saved to `localStorage`.
 
-Currently, two official plugins are available:
+- Game logic and UI: [`src/reaction-game/ReactionGame.jsx`](src/reaction-game/ReactionGame.jsx)
+- Entry point: [`src/main.jsx`](src/main.jsx)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting started
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Scripts
 
-## Expanding the ESLint configuration
+- `npm run dev` — start the Vite dev server with HMR
+- `npm run build` — build for production
+- `npm run preview` — preview the production build locally
+- `npm run lint` — run ESLint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Stack
+
+Built with [React](https://react.dev/) and [Vite](https://vite.dev/).
